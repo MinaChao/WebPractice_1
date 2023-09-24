@@ -1,3 +1,5 @@
+$(document).ready(function () {
+    
 //load淡出
 $("#status").delay(2000).fadeOut(800);
 $("#loader").delay(3000).fadeOut(800);
@@ -28,3 +30,5 @@ var s = skrollr.init();
 function show_submit() {
     alert("提交成功！")
 }
+
+});
